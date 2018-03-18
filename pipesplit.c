@@ -133,7 +133,7 @@ int main( int argc, char *argv[])
                  if ( strstr( ptr , "{" ) != 0 ) 
                  if ( strstr( ptr , "}" ) != 0 ) 
                  {
-                  printf( "%s", strdelimit( strrlf( ptr ) ,  '{' ,'}' ,  1 ) ) ;
+                  printf( "%s", strdelimit( strrlf( ptr ) ,  '{' ,'}' ,  3 ) ) ;
                   printf( "\n");
                  }
              }
