@@ -1,0 +1,12 @@
+# this is a webcam stream database
+# it is ideal for mplayer
+# ** NO WARRANTY **
+# Example: 
+# Unique ID eg. date ; Name of Webcam;url of the stream;homepage of website;Status 0 for offline and 1 for online (working)
+# the above items can be trimmed, except the url of stream. So space does not matter much. 
+
+
+
+
+
+
