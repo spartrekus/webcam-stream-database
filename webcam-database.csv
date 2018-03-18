@@ -4,6 +4,7 @@
 # ** NO WARRANTY **
 ##############################################
 #
+# TO EDIT and UPDATE, Please Join This Project !!
 #
 # Quick Start:
 # UID (col1); Name (col2) ; stream URL; type of stream (col4); resolution/360p (col5); mplayer options ; 0/1 ; homepg ; 
@@ -13,6 +14,7 @@
 # the above items can be trimmed (left and right). So space does not matter much, a bit like in C++ programming language. 
 # One item per line (LF will delimit, UNIX type LF, no windows).
 #
+# TO EDIT and UPDATE, Please Join This Project !!
 
 
 
