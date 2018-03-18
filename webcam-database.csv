@@ -3,7 +3,8 @@
 # ** NO WARRANTY **
 # Example: 
 # Unique ID eg. date ; Name of Webcam;url of the stream; stream type; resolution ; mplayer options ; Status 0 for offline and 1 for online (working) ; homepage of website ; ... (up to you) 
-# the above items can be trimmed, except the url of stream. So space does not matter much. 
+# the above items can be trimmed (left and right). So space does not matter much, a bit like in C++ programming language. 
+# One item per line (LF will delimit, UNIX type LF, no windows).
 # ex for mplayer: mplayer tv:// -tv driver=v4l2
 
 # Summary:
