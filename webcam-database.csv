@@ -2,15 +2,26 @@
 # it is ideal for mplayer, make sure to give a rapid check with mplayer if it is compatible.
 # ** NO WARRANTY **
 # Example: 
-# Unique ID eg. date ; Name of Webcam;url of the stream; mplayer options ; Status 0 for offline and 1 for online (working) ; homepage of website ; ... (up to you) 
+# Unique ID eg. date ; Name of Webcam;url of the stream; stream type; resolution ; mplayer options ; Status 0 for offline and 1 for online (working) ; homepage of website ; ... (up to you) 
 # the above items can be trimmed, except the url of stream. So space does not matter much. 
 # ex for mplayer: mplayer tv:// -tv driver=v4l2
 
 # Summary:
-# UID_1 ; Name_2 ; main URL3;  mplayer options ; 0/1 ; homepg ; 
+# UID_1 ; Name_2 ; stream URL; type of stream; resolution/360p; mplayer options ; 0/1 ; homepg ; 
+
 
 # herewith an example 
-20180318095613 ; my webcam name;; tv:// -tv driver=v4l2  ; 1 ; 
+20180318095613 ; my webcam name ;                                            ; mplayer ;       ; tv:// -tv driver=v4l2  ; 1 ; 
+20180318095616 ; youtube test   ; http://www.youtube.com/watch?v=U4Pw3ofFWgs ; youtube ;  360p ;                         ; 1 ; 
+
+
+
+
+
+
+
+
+
 
 
 
