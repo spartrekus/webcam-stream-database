@@ -1,14 +1,21 @@
-# this is a webcam stream database
+##############################################
+# This is a webcam stream database
 # it is ideal for mplayer, make sure to give a rapid check with mplayer if it is compatible.
 # ** NO WARRANTY **
-# Example: 
+##############################################
+#
+#
+# Quick Start:
+# UID (col1); Name (col2) ; stream URL; type of stream (col4); resolution/360p (col5); mplayer options ; 0/1 ; homepg ; 
+#
+#
 # Unique ID eg. date ; Name of Webcam;url of the stream; stream type; resolution ; mplayer options ; Status 0 for offline and 1 for online (working) ; homepage of website ; ... (up to you) 
 # the above items can be trimmed (left and right). So space does not matter much, a bit like in C++ programming language. 
 # One item per line (LF will delimit, UNIX type LF, no windows).
-# ex for mplayer: mplayer tv:// -tv driver=v4l2
+#
 
-# Summary:
-# UID_1 ; Name_2 ; stream URL; type of stream; resolution/360p; mplayer options ; 0/1 ; homepg ; 
+
+
 
 
 # herewith an example 
